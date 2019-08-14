@@ -1,0 +1,97 @@
+/*---------*/
+/* global */
+/*-------*/
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0 auto;
+    background: url("../img/fond.jpg");
+    font-size: 1.6rem;
+}
+
+/*--------------------*/
+/*       Header      */
+/*------------------*/
+header {
+    width: 100%;
+	height: 80px;
+    background-color: black;
+    color: white;
+	display: flex;
+}
+header h1 {
+	margin: 0 auto;
+    margin-top: 0.5em
+}
+header a {
+    background-color: white;
+    width: 9%;
+}
+h1 span {
+    font-size: 3rem;
+}
+header img {
+    width: 100%;
+}
+
+/*-------------------*/
+/*       Main       */
+/*-----------------*/
+main {
+    padding-top: 1em;
+	width: 80%;
+	margin: 0 auto;
+    height: 50em;
+    background-color: white;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+}
+#choiceAIspan {
+    
+}
+#armeGagnant {
+    text-align: center;
+}
+#ecranDebut {
+    width: 20%;
+    height: 15rem;
+}
+#choixArme {
+	margin: 0 auto;
+	border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+	width: 80%;
+	text-align: center;
+}
+#choixArme a {
+	margin: 0 auto;
+	width: 20%;
+	border-radius: 15%;	
+}
+#choixArme img:hover {
+	box-shadow: none;
+}
+#choixArme img {
+    width: 100%;
+    box-shadow: black 2px 2px 2px;
+    border-radius: 15%;
+}
+h1 {
+    text-align: center;
+}
+#reset {
+    background-color: black;
+}
+#reset img {
+    height: 100%;
+}

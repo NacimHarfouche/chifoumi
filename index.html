@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chifoumi</title>
+    <!-- style css -->
+    <link type="text/css" rel="stylesheet" href="css/chifoumi.css" />
+</head>
+<body>
+    <!-- entête de la page -->
+    <header>
+        <h1 id="test">Welcome to Chifumi</h1>
+        <a href="#" id="reset">
+            <img src="img/reset.gif" />
+        </a>
+    </header>
+    <!-- corps de la page -->
+    <main>
+        <!-- partie affichage du score -->
+        <section>
+            <ul>
+                <li>Choix de l'AI : <span id="choiceAIspan"></span></li>
+                <li>Choix du joueur : <span id="choicePlayerSpan"></span></li>
+                <li>Score AI : <span id="scoreAISpan"></span></li>
+                <li>Score Joueur : <span id="scorePlayerSpan"></span></li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>
+                <span id="resultH1">### Résultat ###</span>
+                <span id="resultSpan"></span>
+            </h1>
+        </section>
+        <!-- affiche l'arme du vainqueur -->
+        <section id="armeGagnant">
+            <img src="img/ecran_debut.png" id="ecranDebut"/>
+        </section>
+        
+        <section id="choixArme">
+            <a href="#" id="choixPierre" class="choiceWeapon">
+                <img src="img/pierre.png" alt="photo pierre"/>
+            </a>
+            <a href="#" id="choixFeuille" class="choiceWeapon">
+                <img src="img/feuille.png" alt="photo feuille"/>
+            </a>
+            <a href="#" id="choixCiseaux" class="choiceWeapon">
+                <img src="img/ciseaux.png" alt="photo ciseaux"/>
+            </a>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="js/chifoumi.js"></script>
+</body>
+</html>
