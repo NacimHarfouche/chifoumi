@@ -130,4 +130,5 @@ document.getElementById("reset").addEventListener("click", () => {
 	spanPlayerElt.textContent = choiceUser;
 	scorePlayerSpan.textContent = scorePlayer;
 	scoreAISpanElt.textContent =  scoreAI;
+	imgElt.src = "img/ecran_debut.png";
 });
